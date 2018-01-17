@@ -5,7 +5,7 @@
   "version": "2.0.0",
   "main": "index.js",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "level": "^2.1.1"
   },
   "scripts": {
