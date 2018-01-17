@@ -4,6 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^2.7.0"
+    "chai": "^4.1.2",
+    "check-for-leaks": "^1.2.0",
+    "lerna": "^2.7.0",
+    "mocha": "^4.1.0",
+    "standard": "^10.0.3",
+    "standard-markdown": "^4.0.2"
   }
 }
