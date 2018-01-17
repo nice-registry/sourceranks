@@ -2,7 +2,7 @@
   "name": "sourceranks-data",
   "description": "a LevelDB database of detailed libraries.io SourceRank data for every package in the npm registry",
   "repository": "https://github.com/nice-registry/sourceranks",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
