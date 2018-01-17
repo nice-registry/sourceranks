@@ -1,0 +1,18 @@
+{
+  "name": "sourceranks",
+  "description": "libraries.io SourceRank scores for every package in the npm registry",
+  "version": "1.0.2",
+  "main": "index.json",
+  "license": "MIT",
+  "scripts": {
+    "lint": "standard --fix && standard-markdown",
+    "test": "mocha && npm run lint",
+    "prepack": "check-for-leaks",
+    "prepush": "check-for-leaks"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "check-for-leaks": "^1.2.0",
+    "mocha": "^4.1.0"
+  }
+}

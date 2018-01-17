@@ -1,0 +1,24 @@
+{
+  "name": "sourceranks-data",
+  "description": "a LevelDB database of detailed libraries.io SourceRank data for every package in the npm registry",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "all-the-package-names": "^1.3440.0",
+    "chai": "^4.1.2",
+    "chalk": "^2.3.0",
+    "check-for-leaks": "^1.2.0",
+    "is-number": "^4.0.0",
+    "level": "^2.1.1",
+    "lodash": "^4.17.4",
+    "mocha": "^4.1.0",
+    "urlencode": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "build": "node script/build-lite-package",
+    "prepack": "check-for-leaks",
+    "prepush": "check-for-leaks"
+  }
+}
