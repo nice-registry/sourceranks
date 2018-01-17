@@ -4,6 +4,10 @@
   "repository": "https://github.com/nice-registry/sourceranks",
   "version": "2.0.0",
   "main": "index.json",
+  "bin": {
+    "sourcerank": "node cli.js",
+    "sourceranks": "node cli.js"
+  },
   "license": "MIT",
   "scripts": {
     "lint": "standard --fix && standard-markdown",
