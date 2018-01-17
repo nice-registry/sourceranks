@@ -10,5 +10,9 @@
     "mocha": "^4.1.0",
     "standard": "^10.0.3",
     "standard-markdown": "^4.0.2"
+  },
+  "scripts": {
+    "prepack": "check-for-leaks",
+    "prepush": "check-for-leaks"
   }
 }

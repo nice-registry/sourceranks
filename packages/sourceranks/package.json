@@ -1,6 +1,7 @@
 {
   "name": "sourceranks",
   "description": "libraries.io SourceRank scores for every package in the npm registry",
+  "repository": "https://github.com/nice-registry/sourceranks",
   "version": "1.0.2",
   "main": "index.json",
   "license": "MIT",
